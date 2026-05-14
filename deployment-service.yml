@@ -17,7 +17,7 @@ spec:
         - name: regcred
       containers:
         - name: bloggingapp
-          image: mohdshareef088/blogging-app:latest   # FIXED IMAGE NAME
+          image: mohdshareef088/blogging-app  # FIXED IMAGE NAME
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
