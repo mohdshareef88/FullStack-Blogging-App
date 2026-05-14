@@ -17,7 +17,7 @@ spec:
         - name: regcred
       containers:
         - name: bloggingapp
-          image: mohdshareef088/blogging-app  # FIXED IMAGE NAME
+          image: mohdshareef088/blogging-app  # image for dockerhub upload
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
